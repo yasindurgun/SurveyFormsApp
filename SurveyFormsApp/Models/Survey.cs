@@ -26,6 +26,9 @@ namespace SurveyFormsApp.Models
         /// <summary>
         /// Bütün questionlar bir IQuestiondur.
         /// </summary>
+        ///
+        
+        //Liste içerisinde Question base class ı da tutulabilirdi. Tüm soru tipleri o sınıftan kalıtım alıyor.
         private List<IQuestion> questions = new List<IQuestion>();
         public IReadOnlyList<IQuestion> Questions => questions;
 
